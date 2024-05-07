@@ -13,8 +13,15 @@ public class Main {
     public static void main(String[] args) {
 
         Ball ball = new Ball("Blue", "justBall", 12, 45);
-        ball.showColor();
-        ball.showName();
+
+        ball.setName("Hello");
+        ball.setColor("Red");
+
+        ball.setBounceRate(123);
+        ball.setCapacity(3);
+
+        //ball.showColor();
+        System.out.println(ball.getName() + ", " + ball.getColor() + ", " + ball.getBounceRate() + ", " + ball.getCapacity());
 
 
     }

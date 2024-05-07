@@ -26,6 +26,10 @@ public class Ball {
     }
 
 
+
+
+
+
     public void showColor() {
         System.out.println(color);
     }
@@ -46,6 +50,38 @@ public class Ball {
     public void inflates() {
     System.out.println("Inflating...");
 
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public int getBounceRate() {
+        return bounceRate;
+    }
+
+    public void setBounceRate(int bounceRate) {
+        this.bounceRate = bounceRate;
     }
 
 }
