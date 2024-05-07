@@ -8,21 +8,44 @@ package intermedeiate.oop;
  *
  * @author Utilisateur
  */
-public class BasketBall  extends Ball{
+public class BasketBall extends Ball {
 
     private int capacity;
     private boolean isNBA;
+
+    @Override
+    public int getCapacity() {
+        return capacity;
+    }
+
+   
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public boolean isIsNBA() {
+        return isNBA;
+    }
+
+    public void setIsNBA(boolean isNBA) {
+        this.isNBA = isNBA;
+    }
+
+
 
     public boolean isNBA() {
 
         if (isNBA == true) {
             return true;
-        }else {
+        } else {
             return false;
         }
 
     }
 
-
+    @Override
+    public void bounce() {
+        System.out.println("BasketBall Bouncing");
+    }
 
 }

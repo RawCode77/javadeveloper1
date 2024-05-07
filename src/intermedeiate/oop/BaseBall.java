@@ -8,7 +8,7 @@ package intermedeiate.oop;
  *
  * @author Utilisateur
  */
-public class BaseBall extends Ball{
+public class BaseBall extends Ball {
 
     private String name;
     private String color;

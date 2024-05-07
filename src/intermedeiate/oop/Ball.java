@@ -10,7 +10,7 @@ package intermedeiate.oop;
  */
 public class Ball {
 
-    private String color;
+    public String color;
     private String name;
     private int capacity;
     private int bounceRate;
@@ -36,11 +36,6 @@ public class Ball {
         capacity = mCapacity;
     }
 
-
-
-
-
-
     public void showColor() {
         System.out.println(color);
     }
@@ -48,18 +43,19 @@ public class Ball {
     public void showName() {
         System.out.println(name);
     }
+
     public void bounce() {
-    System.out.println("Bouncing...");
+        System.out.println("Bouncing...");
 
     }
 
     public void deflate() {
-    System.out.println("Deflating....");
+        System.out.println("Deflating....");
 
     }
 
     public void inflates() {
-    System.out.println("Inflating...");
+        System.out.println("Inflating...");
 
     }
 
