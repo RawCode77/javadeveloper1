@@ -8,6 +8,21 @@ package intermedeiate.oop;
  *
  * @author Utilisateur
  */
-public class BasketBall {
+public class BasketBall  extends Ball{
+
+    private int capacity;
+    private boolean isNBA;
+
+    public boolean isNBA() {
+
+        if (isNBA == true) {
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+
+
 
 }

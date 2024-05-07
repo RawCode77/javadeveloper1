@@ -10,11 +10,29 @@ package intermedeiate.oop;
  */
 public class Ball {
 
-    public String color;
-    public String name;
-    public int capacity;
-    public int bounceRate;
+    private String color;
+    private String name;
+    private int capacity;
+    private int bounceRate;
 
+    public Ball() {
+    }
+
+    public Ball(String mColor, String mName, int mCapacity, int mBounceRate) {
+        color = mColor;
+        name = mName;
+        capacity = mCapacity;
+        bounceRate = mBounceRate;
+    }
+
+
+    public void showColor() {
+        System.out.println(color);
+    }
+
+    public void showName() {
+        System.out.println(name);
+    }
     public void bounce() {
     System.out.println("Bouncing...");
 

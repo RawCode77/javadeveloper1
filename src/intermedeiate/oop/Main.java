@@ -10,6 +10,13 @@ package intermedeiate.oop;
  */
 public class Main {
 
-    
+    public static void main(String[] args) {
+
+        Ball ball = new Ball("Blue", "justBall", 12, 45);
+        ball.showColor();
+        ball.showName();
+
+
+    }
 
 }
