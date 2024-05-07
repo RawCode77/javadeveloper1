@@ -25,6 +25,17 @@ public class Ball {
         bounceRate = mBounceRate;
     }
 
+    public Ball(String mColor, String mName) {
+        color = mColor;
+        name = mName;
+    }
+
+    public Ball(String mColor, String mName, int mCapacity) {
+        color = mColor;
+        name = mName;
+        capacity = mCapacity;
+    }
+
 
 
 
