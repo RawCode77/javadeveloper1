@@ -6,7 +6,14 @@ package intermedeiate.oop;
 
 /**
  *
- * @author Utilisateur
+ * Author: Rudy Washington
+ * This application consist of Intermediate Java Concept:
+ * Object-Oriented Programming
+ * Classes and objects
+ * Access modifiers and Constructors
+ * overloading constructors
+ * Inheritance and Overriding
+ *
  */
 public class Ball {
 

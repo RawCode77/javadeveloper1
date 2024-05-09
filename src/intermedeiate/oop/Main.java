@@ -24,7 +24,7 @@ public class Main {
         ball.setBounceRate(123);
         ball.setCapacity(3);
 
-        System.out.println(ball.getName() + ", " + ball.getColor() + ", " + ball.getBounceRate() + ", " + ball.getCapacity());
+        System.out.println("Ball Type:" + "\n" + ball.getName() + ", " + ball.getColor() + ", " + ball.getBounceRate() + ", " + ball.getCapacity());
 
         BasketBall basketBall = new BasketBall();
         BaseBall baseBall = new BaseBall();
@@ -37,11 +37,10 @@ public class Main {
         baseBall.setColor("White");
         baseBall.setName("BaseBall");
 
-        System.out.println("Baketball Desciption:" + "\n" + basketBall.getName() + ", " + basketBall.getColor() + "," + basketBall.isNBA() + "," +  basketBall.getCapacity() +
-                "\n" + "BaseBall Description:" + "\n" + baseBall.getName() + ", " + baseBall.getColor());
+        System.out.println("Baketball Desciption:" + "\n" + basketBall.getName() + ", " + basketBall.getColor() + "," + basketBall.isNBA() + "," + basketBall.getCapacity()
+                + "\n" + "BaseBall Description:" + "\n" + baseBall.getName() + ", " + baseBall.getColor());
 
         basketBall.bounce();
-
 
     }
 

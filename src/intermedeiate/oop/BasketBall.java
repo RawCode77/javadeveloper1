@@ -18,7 +18,6 @@ public class BasketBall extends Ball {
         return capacity;
     }
 
-   
     public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
@@ -30,8 +29,6 @@ public class BasketBall extends Ball {
     public void setIsNBA(boolean isNBA) {
         this.isNBA = isNBA;
     }
-
-
 
     public boolean isNBA() {
 
